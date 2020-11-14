@@ -11,39 +11,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;700;900&display=swap" rel="stylesheet">
     <!-- Estilos de la pagina -->
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     <div class="container">
 
-        <main class="container_login">
+        <section class="login_card">
 
-            <section class="login_card">
+            <article class="card_img">
+                <img src="./assets/img/login.jpeg" alt="">
+            </article>
 
-                <article class="card_img">
-                    <img src="./assets/img/bg2-1.svg" alt="">
-                </article>
+            <article class="card_form">
 
-                <article class="card_form">
+                <h1 class="title">LOGIN</h1>
 
-                    <label for="phone">Teléfono: </label>
-                    <div class="input">
-                        <span class="user"><i class="fas fa-user"></i></span>
-                        <input type="text" class="tel">
-                    </div>
-                    <div class="input">
-                        <span class="user"><i class="fas fa-key"></i></span>
-                        <input type="password" class="pass">
-                    </div>
+                <div class="card_form_item">
+                    <!-- <label for="phone">Teléfono: </label> -->
+                    <span class="user"><i class="fas fa-user"></i></span>
+                    <input type="text" class="tel" placeholder="Telefono">
+                </div>
+                <div class="card_form_item">
+                    <!-- <label for="pass">Contraseña: </label> -->
 
-                </article>
+                    <span class="user"><i class="fas fa-key"></i></span>
+                    <input type="password" class="pass" placeholder="Contraseña">
+                </div>
 
-                <article class="card_boton">
-                    <a href="#">Entrar</a>
-                </article>
+                <a href="#">Entrar</a>
+            </article>
 
-            </section>
-
-        </main>
+        </section>
 
     </div>
 </body>
