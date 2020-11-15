@@ -5,6 +5,10 @@
 
 /* dashboard lateral */
 
+.btn{
+    cursor: pointer;
+}
+
 .container{
     display: grid;
     grid-template-columns: 20% 1fr;
@@ -96,6 +100,10 @@
     border: none;
 }
 
+.logOut:foucs{
+    border: transparent;
+}
+
 .copyright{
     font-size: 12px;
 }
@@ -108,4 +116,3 @@
     justify-content: center;
     align-items: center;
 }
-    
