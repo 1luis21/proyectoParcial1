@@ -1,7 +1,7 @@
 /* dashboard usuarios */
 
 .usuarios{
-    color: #00E5E8;
+    color: rgb(0, 229, 232);
 }
 
 
@@ -20,29 +20,79 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 45%;
     width: 30%;
 
-    background-color: rgba(52, 228, 234, 0.5);
+    /* background-color: rgba(0, 229, 232, 1); */
+    background-color: rgba(27, 82, 153,0.5);
     border-radius: 10px;
+    /* box-shadow: 2px 2px black; */
 }
 
 .card_data{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    height: 70%;
+    justify-content: space-evenly;
+    height: 80%;
 }
 
 .card_data-icon > span > i{
     font-size: 5em;
+    color: #331832;
+}
+
+.card_data-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40%;
     color: #49516F;
+}
+
+.card_data-text > h3{
+    align-self: center;
+    font-weight: 900;
+    font-size: 1.4em;
+    color: #000;
+}
+
+.card_data-text > p{
+    font-weight: 700;
+}
+
+.card_data-text > p > .desagree{
+    color: #A93F55;
+}
+
+.card_data-text > p > .agree{
+    color: #3A7D44;
 }
 
 .card_buttons{
     display: flex;
     width: 90%;
+    height: 20%;
     justify-content: space-evenly;
+    align-items: center;
+}
+
+.card_buttons > .btn{
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    width: 40%;
+    font-weight: 300;
+}
+
+.card_buttons > .btn-eliminar{
+    background-color: #A93F55;
+    color: #fff;
+}
+
+.card_buttons > .btn-modificar{
+    background-color:  #3A7D44;
+    color: #fff;
 }
