@@ -10,45 +10,70 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;700;900&display=swap" rel="stylesheet">
     <!-- Estilos de la pagina -->
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
 </head>
 <body>
     <div class="container">
 
         <aside class="dashboard_lateral">
 
-            <article class="lateral_items">
-                <div class="item user">
-                    <img src="" alt="">
+            <section class="lateral_header">
 
-                    <h1>
-                        Alfredo Paz 
-                        <span>Administrador</span>
-                    </h1>
-                </div>
-            </article>
+                <article class="lateral_items">
+                    <div class="items user">
+                        <span class="icono"><i class="far fa-user"></i></span>
+    
+                        <div class="titulo">
+                            <h1>
+                                Alfredo Paz 
+                            </h1>
 
-            <article class="lateral_items">
-                <div class="item abono">
-                    <span class="icono"></span>
-                </div>
-            </article>
+                            <span>Administrador</span>
+                        </div>
+                    </div>
+                </article>
+    
+                <article class="lateral_items">
+                    <a href="#" class="items abono">
+                        <span class="icono"><i class="fas fa-money-check-alt"></i></span>
+                        <p href="#">Abonos</p>
+                    </a>
+                </article>
+    
+                <article class="lateral_items">
+                    <a href="#" class="items deuda">
+                        <span class="icono"><i class="fas fa-wallet"></i></span>
+                        <p href="#">Deudas</p>
+                    </a>
+                </article>
+    
+                <article class="lateral_items">
+                    <a href="#" class="items usuarios">
+                        <span class="icono"><i class="fas fa-user-plus"></i></span>
+                        <p href="#">Usuarios</p>
+                    </a>
+                </article>
+            </section>
+            
+            <section class="lateral_footer">
 
-            <article class="lateral_items">
-                <div class="item deuda">
-                    <span class="icono"></span>
-                </div>
-            </article>
+                <article class="lateral_items">
+                    <div class="items logOut">
+                        <span class="icono"><i class="fas fa-sign-out-alt"></i></span>
+                        <p>Salir</p>
+                    </div>
 
-            <article class="lateral_item">
-                <div class="item usuarios">
-                    <span class="icono"></span>
-                </div>
-            </article>
+                    <div class="copyright">
+                        <p>Derechos reservados </p>
+                    </div>
+                </article>
+
+            </section>
 
         </aside>
 
+        <section class="dashboard_main"> HI</section>
     </div>
 </body>
 </html>
