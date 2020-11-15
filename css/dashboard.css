@@ -91,4 +91,12 @@
     font-size: 12px;
 }
 
+.dashboard_main{
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
