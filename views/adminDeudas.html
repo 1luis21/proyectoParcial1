@@ -12,6 +12,7 @@
     <!-- Estilos de la pagina -->
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/dashboardGeneral.css">
+    <link rel="stylesheet" href="../css/dashboardDeudas.css">
 </head>
 <body>
     <div class="container">
@@ -42,7 +43,7 @@
                 </article>
     
                 <article class="lateral_items">
-                    <button href="#" class="items">
+                    <button href="#" class="items deudas">
                         <span class="icono"><i class="fas fa-wallet"></i></span>
                         <p href="#">Deudas</p>
                     </button>
@@ -78,41 +79,171 @@
             <article class="main_container">
 
                 <div class="table_container">
-
                     <div class="form">
 
-                        <div class="form_cantidad">
+                        <div class="formulario">
 
-                            <span class="icono"><i class="fas fa-dollar-sign"></i></span>
 
-                            <input type="number" name="cantidad" id="" placeholder="5000">
-
-                            <span class="decimales">.00</span>
-
+                            <div class="form_cantidad">
+    
+                                <span class="icono"><i class="fas fa-dollar-sign"></i></span>
+    
+                                <input type="number" name="cantidad" id="" placeholder="5000">
+    
+                                <span class="decimales">.00</span>
+    
+                            </div>
+    
+                            <div class="boton">
+    
+                                <button class="btn">Agregar</button>
+    
+                            </div>
                         </div>
 
-                        <div class="boton">
-
-                            <button class="btn agregar">Agrgegar</button>
-
-                        </div>
+                        <span class="select_all">
+                            <input type="checkbox" name="todo" id="all">
+                            <label for="all">Seleccionar todo</label>
+                        </span>
 
                     </div>
 
+
                     <div class="tabla">
+
 
                         <table>
 
-                            <tr>
-                                <th>Nombre</th>
-                                <th>Apellido Paterno</th>
-                                <th>Apellido Materno</th>
-                                <th>Teléfono</th>
-                                <th>Correo</th>
-                                <th>
-                                    <input type="checkbox" name="" id="">
-                                </th>
-                            </tr>
+                            <thead>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Apellido Paterno</th>
+                                    <th>Apellido Materno</th>
+                                    <th>Teléfono</th>
+                                    <th>Correo</th>
+                                    <th class="ultimo">Selección</th>
+                                </tr>
+                            </thead>
+                            
+                            <tbody>
+
+                                <tr>
+                                    <td colspan="5">&nbsp;</td>
+                                </tr>
+
+                                <tr>
+                                    <td>1Lorem.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>
+                                        <input type="checkbox" name="" id="">
+                                    </td>
+                                </tr>
+    
+                                <tr>
+                                    <td>Lorem.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>
+                                        <input type="checkbox" name="" id="">
+                                    </td>
+                                </tr>
+    
+                                
+    
+                                <tr>
+                                    <td>Lorem.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>
+                                        <input type="checkbox" name="" id="">
+                                    </td>
+                                </tr>
+    
+                                <tr>
+                                    <td>Lorem.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>
+                                        <input type="checkbox" name="" id="">
+                                    </td>
+                                </tr>
+    
+                                <tr>
+                                    <td>Lorem.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>
+                                        <input type="checkbox" name="" id="">
+                                    </td>
+                                </tr>
+    
+                                <tr>
+                                    <td>Lorem.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>
+                                        <input type="checkbox" name="" id="">
+                                    </td>
+                                </tr>
+    
+                                <tr>
+                                    <td>Lorem.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>
+                                        <input type="checkbox" name="" id="">
+                                    </td>
+                                </tr>
+    
+                                <tr>
+                                    <td>Lorem.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>
+                                        <input type="checkbox" name="" id="">
+                                    </td>
+                                </tr>
+    
+                                <tr>
+                                    <td>Lorem.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>
+                                        <input type="checkbox" name="" id="">
+                                    </td>
+                                </tr>
+    
+                                <tr>
+                                    <td>Lorem.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>Lorem, ipsum.</td>
+                                    <td>
+                                        <input type="checkbox" name="" id="">
+                                    </td>
+                                </tr>
+                            </tbody>
+
 
                         </table>
 
