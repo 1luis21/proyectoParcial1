@@ -125,3 +125,15 @@
     justify-content: center;
     align-items: center;
 }
+
+a {
+    font: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.aAgregar{
+    font: bold;
+    color: black;
+    text-decoration: none;
+}
