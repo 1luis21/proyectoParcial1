@@ -1,6 +1,10 @@
 /* *{
 } */
 
+.lateral_header{
+    justify-content: flex-start;
+}
+
 .tabla{
     /* border: 1px solid blue; */
     display: flex;
