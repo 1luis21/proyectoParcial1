@@ -23,14 +23,24 @@
     width: 100%;
     border: none;
     border-radius: 10px;
-    background: #3A7D44;
-    color: #fff;
-    font-weight: 300;
+    border:2px solid #3A7D44;
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
     font-size: 1em;
 
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.boton > .btn:hover{
+    background: #3A7D44;
+    color: #fff;
+}
+
+.boton > .btn:active{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,0.5) inset;
 }
 
 .boton > .btn > i{
@@ -45,7 +55,7 @@
     height: 100%;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
@@ -56,12 +66,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 45%;
     width: 30%;
 
-    /* background-color: rgba(0, 229, 232, 1); */
-    background-color: rgba(27, 82, 153,0.5);
+    background-color: #fff;
+    /* background-color: rgba(27, 82, 153,0.5); */
+    /* border: 1px solid black; */
+    box-shadow: 5px 5px 10px -6px black;
     border-radius: 10px;
 }
 
@@ -75,7 +87,7 @@
 
 .card_data-icon > span > i{
     font-size: 5em;
-    color: #331832;
+    color: black;
 }
 
 .card_data-text{
@@ -119,15 +131,35 @@
     border-radius: 5px;
     border: 1px solid transparent;
     width: 40%;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .card_buttons > .btn-eliminar{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid  #A93F55;
+}
+
+.card_buttons > .btn-eliminar:hover{
     background-color: #A93F55;
     color: #fff;
 }
 
+.card_buttons > .btn-eliminar:active{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,0.3) inset;
+}
+
 .card_buttons > .btn-modificar{
-    background-color:  #3A7D44;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #3A7D44;
+}
+
+.card_buttons > .btn-modificar:hover{
+    background-color: #3A7D44;
     color: #fff;
+}
+
+.card_buttons > .btn-modificar:active{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,0.3) inset;
 }
