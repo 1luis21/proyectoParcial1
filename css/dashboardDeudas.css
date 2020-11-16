@@ -188,3 +188,8 @@ tbody tr:first-child td{
 tr:nth-child(2n){
     background: none repeat scroll 0 0 rgba(27, 82, 153,0.2);
 } 
+
+a {
+    font: bold;
+    color: white;
+}
