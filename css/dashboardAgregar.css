@@ -57,24 +57,40 @@
     border: none;
     /* border: 1px solid black; */
     border-radius: 10px;
-    padding: 1em 1.5em;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    padding: 0.5em 1.5em;
 }
 
 .form_buttons > .add{
-    background: #3A7D44;
-    color: #fff;
+    background: #fff;
+    color: #000;
     font-weight: 500;
     font-size: 1em;
-    border: 1px solid #14342B;
+    border: 2px solid #3A7D44;
+}
+
+.form_buttons > .add:hover{
+    background: #3A7D44;
+    color: #fff;
+}
+
+.form_buttons > .add:active{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,0.5) inset;
 }
 
 .form_buttons > .cancel{
     background-color: transparent;
-    border: 1px solid #080705;
+    border: 2px solid #EC0B43;
     color: #000;
     font-weight: 500;
     font-size: 1em;
 }
 
+.form_buttons > .cancel:hover{
+    background-color: #EC0B43;
+    color: #fff;
+}
+
+.form_buttons > .cancel:active{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,0.5) inset;
+}
 
