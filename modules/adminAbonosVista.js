@@ -17,7 +17,7 @@ window.onload = function(){
                 <td>${usuario.telefono}</td>
                 <td>${usuario.correo}</td>
                 <td>
-                    <input type="radio" name="persona" id="">
+                    <input type="radio" name="persona" id="" value="${usuario.telefono}">
                 </td>
             </tr>
         `;

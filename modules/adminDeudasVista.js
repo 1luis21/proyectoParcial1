@@ -17,7 +17,7 @@ window.onload = function(){
                 <td>${usuario.telefono}</td>
                 <td>${usuario.correo}</td>
                 <td>
-                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="" id="" value="${usuario.telefono}">
                 </td>
             </tr>
         
