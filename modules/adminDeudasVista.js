@@ -1,15 +1,15 @@
 window.onload = function(){
     let base = JSON.parse(localStorage.getItem('miBD'));
-    let txt_abonos = '';
+    let txt_deudas = '';
 
-    txt_abonos += `
+    txt_deudas += `
         <tr>
             <td colspan="5">&nbsp;</td>
         </tr>
     `;
 
     base.datos.forEach(usuario => {
-        txt_abonos += `
+        txt_deudas += `
             <tr>
                 <td>${usuario.nombre}</td>
                 <td>${usuario.apellidoPaterno}</td>
@@ -17,13 +17,19 @@ window.onload = function(){
                 <td>${usuario.telefono}</td>
                 <td>${usuario.correo}</td>
                 <td>
-                    <input type="radio" name="persona" id="">
+                    <input type="checkbox" name="" id="">
                 </td>
             </tr>
+        
+        
         `;
     });
+
     
-    document.getElementById('personas-abonos').innerHTML = txt_abonos;
+
+    // if(document.getElementById('personas-abonos') == )
+
+    document.getElementById('personas-deudas').innerHTML = txt_deudas;
     console.log(txt);
     console.log(base);
 };
